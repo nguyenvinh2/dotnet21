@@ -1,0 +1,13 @@
+version: 0.2
+
+phases:
+
+build:
+commands:
+  - dotnet restore dotnet21/dotnet21.csproj
+  - dotnet build dotnet21/dotnet21csproj
+  - dotnet publish dotnet21/donet21.csproj -o site
+ artifacts:
+  files:
+    - dotnet21/site/**/*
+    - dotnet21/aws-windows-deployment-manifest.json

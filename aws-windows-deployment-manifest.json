@@ -1,14 +1,14 @@
 {
   "manifestVersion": 1,
   "deployments": {
-      "aspNetCoreWeb": [
-      {
-          "name": "dotnet21",
-          "parameters": {
-              "iisPath": "/",
-              "iisWebSite": "Default Web Site"
+      "aspNetCoreWeb": [{
+              "name": "dotnet21",
+              "parameters": {
+                  "appBundle": "./site",
+                  "iisPath": "/",
+                  "iisWebSite": "Default Web Site"
+              }
           }
-      }
       ]
   }
 }
