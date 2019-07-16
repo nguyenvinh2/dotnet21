@@ -4,11 +4,10 @@ phases:
 
   build:
     commands:
-      - dotnet restore EbCiTest/EbCiTest.csproj
-      - dotnet build EbCiTest/EbCiTest.csproj
-      - dotnet publish EbCiTest/EbCiTest.csproj -o ./staging/app
-      - cp ./EbCiTest/aws-windows-deployment-manifest.json ./EbCiTest/staging/.
+      - dotnet restore dotnet21.csproj
+      - dotnet build dotnet21.csproj
+      - dotnet publish dotnet21.csproj -o ./staging/app
 artifacts:
   files:
     - '**/*'
-  base-directory: 'EbCiTest/staging'
+  base-directory: './'

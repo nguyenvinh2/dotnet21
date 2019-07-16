@@ -3,7 +3,7 @@
   "deployments": {
       "aspNetCoreWeb": [
       {
-          "name": "test-dotnet-core",
+          "name": "dotnet21",
           "parameters": {
               "appBundle": "site.zip",
               "iisPath": "/",
