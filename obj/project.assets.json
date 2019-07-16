@@ -402,7 +402,7 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.Policy.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Connections.Abstractions/2.1.1": {
+      "Microsoft.AspNetCore.Connections.Abstractions/2.1.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Http.Features": "2.1.1",
@@ -1255,7 +1255,7 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Server.HttpSys.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Server.IISIntegration/2.1.1": {
+      "Microsoft.AspNetCore.Server.IISIntegration/2.1.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.Core": "2.1.1",
@@ -1266,11 +1266,11 @@
           "Microsoft.Extensions.Logging.Abstractions": "2.1.1",
           "Microsoft.Extensions.Options": "2.1.1",
           "System.Buffers": "4.5.0",
-          "System.IO.Pipelines": "4.5.0",
+          "System.IO.Pipelines": "4.5.2",
           "System.Memory": "4.5.1",
           "System.Numerics.Vectors": "4.5.0",
-          "System.Runtime.CompilerServices.Unsafe": "4.5.1",
-          "System.Security.Principal.Windows": "4.5.0"
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2",
+          "System.Security.Principal.Windows": "4.5.1"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Server.IISIntegration.dll": {}
@@ -1279,13 +1279,13 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Server.IISIntegration.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Server.Kestrel/2.1.1": {
+      "Microsoft.AspNetCore.Server.Kestrel/2.1.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Hosting": "2.1.1",
-          "Microsoft.AspNetCore.Server.Kestrel.Core": "2.1.1",
-          "Microsoft.AspNetCore.Server.Kestrel.Https": "2.1.1",
-          "Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets": "2.1.1"
+          "Microsoft.AspNetCore.Server.Kestrel.Core": "2.1.2",
+          "Microsoft.AspNetCore.Server.Kestrel.Https": "2.1.2",
+          "Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets": "2.1.2"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.dll": {}
@@ -1294,11 +1294,11 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Server.Kestrel.Core/2.1.1": {
+      "Microsoft.AspNetCore.Server.Kestrel.Core/2.1.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Hosting.Abstractions": "2.1.1",
-          "Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions": "2.1.1",
+          "Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions": "2.1.2",
           "Microsoft.AspNetCore.WebUtilities": "2.1.1",
           "Microsoft.Extensions.Configuration.Binder": "2.1.1",
           "Microsoft.Extensions.Logging.Abstractions": "2.1.1",
@@ -1317,11 +1317,11 @@
           "lib/netcoreapp2.1/Microsoft.AspNetCore.Server.Kestrel.Core.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Server.Kestrel.Https/2.1.1": {
+      "Microsoft.AspNetCore.Server.Kestrel.Https/2.1.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Http.Abstractions": "2.1.1",
-          "Microsoft.AspNetCore.Server.Kestrel.Core": "2.1.1"
+          "Microsoft.AspNetCore.Server.Kestrel.Core": "2.1.2"
         },
         "compile": {
           "lib/netcoreapp2.1/Microsoft.AspNetCore.Server.Kestrel.Https.dll": {}
@@ -1330,10 +1330,10 @@
           "lib/netcoreapp2.1/Microsoft.AspNetCore.Server.Kestrel.Https.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions/2.1.1": {
+      "Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions/2.1.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Connections.Abstractions": "2.1.1"
+          "Microsoft.AspNetCore.Connections.Abstractions": "2.1.2"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll": {}
@@ -1342,11 +1342,11 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets/2.1.1": {
+      "Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets/2.1.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Hosting.Abstractions": "2.1.1",
-          "Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions": "2.1.1",
+          "Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions": "2.1.2",
           "Microsoft.Extensions.Options": "2.1.1"
         },
         "compile": {
@@ -3278,7 +3278,7 @@
           "lib/netstandard1.3/System.IO.FileSystem.Primitives.dll": {}
         }
       },
-      "System.IO.Pipelines/4.5.0": {
+      "System.IO.Pipelines/4.5.2": {
         "type": "package",
         "compile": {
           "ref/netstandard1.3/System.IO.Pipelines.dll": {}
@@ -3611,7 +3611,7 @@
           "ref/netstandard1.5/System.Runtime.dll": {}
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/4.5.1": {
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
         "type": "package",
         "compile": {
           "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
@@ -4024,7 +4024,7 @@
           "lib/netstandard1.0/System.Security.Principal.dll": {}
         }
       },
-      "System.Security.Principal.Windows/4.5.0": {
+      "System.Security.Principal.Windows/4.5.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.0.0"
@@ -4576,16 +4576,16 @@
         "microsoft.aspnetcore.authorization.policy.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Connections.Abstractions/2.1.1": {
-      "sha512": "cYrlbfJI6NelDmZXmn3z9Gtu7F7l7sk7eq2EExYuD76l5QnGuFr9fC+UUM62sJbeWkiX3+AaKKsjXdDBfgKDRQ==",
+    "Microsoft.AspNetCore.Connections.Abstractions/2.1.2": {
+      "sha512": "+LpinMPlSK6X3xu/CsN9z7uw811/FNQ4ZgwOGIVAOCOQ+83EaxkwsnfB1HrH6sWLe3jAAncoIjeNz/LQxSFzqA==",
       "type": "package",
-      "path": "microsoft.aspnetcore.connections.abstractions/2.1.1",
+      "path": "microsoft.aspnetcore.connections.abstractions/2.1.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.AspNetCore.Connections.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Connections.Abstractions.xml",
-        "microsoft.aspnetcore.connections.abstractions.2.1.1.nupkg.sha512",
+        "microsoft.aspnetcore.connections.abstractions.2.1.2.nupkg.sha512",
         "microsoft.aspnetcore.connections.abstractions.nuspec"
       ]
     },
@@ -5385,36 +5385,36 @@
         "microsoft.aspnetcore.server.httpsys.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Server.IISIntegration/2.1.1": {
-      "sha512": "jH9bbzOtAqWZfR2qmsfkv83D5paTfPjZ8Jn6E42ofmfDZWE2XT/RJLwhvsMy9sTAaFuVQ+hTuF26MmlQgEp5zw==",
+    "Microsoft.AspNetCore.Server.IISIntegration/2.1.2": {
+      "sha512": "uBxvetiZnJODcd54aY4H/Qn9/1ZWDvTX1Q6COG1TGgDl3W78IX61mc5aUj5FMzsiE7BV1yG7/8fv9T/4I6H17A==",
       "type": "package",
-      "path": "microsoft.aspnetcore.server.iisintegration/2.1.1",
+      "path": "microsoft.aspnetcore.server.iisintegration/2.1.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.AspNetCore.Server.IISIntegration.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Server.IISIntegration.xml",
-        "microsoft.aspnetcore.server.iisintegration.2.1.1.nupkg.sha512",
+        "microsoft.aspnetcore.server.iisintegration.2.1.2.nupkg.sha512",
         "microsoft.aspnetcore.server.iisintegration.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Server.Kestrel/2.1.1": {
-      "sha512": "Oq/vPCWwAPCEIIOW7gh4+3jcGLYkQeg3ySg9J2DoRhFs71ThdYwTb2goezrVYlMif6MOp7wnE8nBGLnxRms++A==",
+    "Microsoft.AspNetCore.Server.Kestrel/2.1.2": {
+      "sha512": "QqJnVYIxrZCPUJUysBrgKKS5N3DS3GPDZ/aRcC6V5Zq2Mtsa+1PrsiuJO3fM90gc1w5hZgk1dEQ1x6X2c0yusw==",
       "type": "package",
-      "path": "microsoft.aspnetcore.server.kestrel/2.1.1",
+      "path": "microsoft.aspnetcore.server.kestrel/2.1.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.xml",
-        "microsoft.aspnetcore.server.kestrel.2.1.1.nupkg.sha512",
+        "microsoft.aspnetcore.server.kestrel.2.1.2.nupkg.sha512",
         "microsoft.aspnetcore.server.kestrel.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Server.Kestrel.Core/2.1.1": {
-      "sha512": "MYDf5wGCNYBNfy82FMwA2MhmFlTSK8x8dZPUFHGJH13VbAcCaz+Vr7lmgi5WjhdQ+rAeKJFrh2MCNK76bh5KzQ==",
+    "Microsoft.AspNetCore.Server.Kestrel.Core/2.1.2": {
+      "sha512": "3Exwpd5X115cjv7HL1z+vvNnDpFJp8O6pROP0knIkH4iOHjG7vP8S/kh8HGUX7rFD7/hAGW/009vQN5y0OJO6Q==",
       "type": "package",
-      "path": "microsoft.aspnetcore.server.kestrel.core/2.1.1",
+      "path": "microsoft.aspnetcore.server.kestrel.core/2.1.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5422,14 +5422,14 @@
         "lib/netcoreapp2.1/Microsoft.AspNetCore.Server.Kestrel.Core.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.Core.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.Core.xml",
-        "microsoft.aspnetcore.server.kestrel.core.2.1.1.nupkg.sha512",
+        "microsoft.aspnetcore.server.kestrel.core.2.1.2.nupkg.sha512",
         "microsoft.aspnetcore.server.kestrel.core.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Server.Kestrel.Https/2.1.1": {
-      "sha512": "f0xLrCFCLs9lJywFo6HLINbADplDFWA0/yIPTcCSm1W4oJByYcBIz340sIB1mvy0b+/v6yNhXaCvPCtrDPPG7w==",
+    "Microsoft.AspNetCore.Server.Kestrel.Https/2.1.2": {
+      "sha512": "r5I6KzcVMPY3jOvs5lujvJa0+zBPcWFQ47MKMfs38nMJNLxRy0YSPNv0GY0TxsnrZBhFCNjyVqn/B2jyUhtrsw==",
       "type": "package",
-      "path": "microsoft.aspnetcore.server.kestrel.https/2.1.1",
+      "path": "microsoft.aspnetcore.server.kestrel.https/2.1.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5437,27 +5437,27 @@
         "lib/netcoreapp2.1/Microsoft.AspNetCore.Server.Kestrel.Https.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.Https.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.Https.xml",
-        "microsoft.aspnetcore.server.kestrel.https.2.1.1.nupkg.sha512",
+        "microsoft.aspnetcore.server.kestrel.https.2.1.2.nupkg.sha512",
         "microsoft.aspnetcore.server.kestrel.https.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions/2.1.1": {
-      "sha512": "BSWhxqDqjkwj1uMU4RDPMVUB7YqoohtjxaNSL9XMqoCNEfsZN+Qgr17Z4B+KXlWKlik0niFTzIN1ECJOMrMeGg==",
+    "Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions/2.1.2": {
+      "sha512": "m3bFqm7XHCdIe7m17UOBJja3mLRBhFr23YgT97gFjF4uiixsyDXlnqSOoo7Q9mzGjEjUuAY+/1AuzGdNz47UuQ==",
       "type": "package",
-      "path": "microsoft.aspnetcore.server.kestrel.transport.abstractions/2.1.1",
+      "path": "microsoft.aspnetcore.server.kestrel.transport.abstractions/2.1.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.xml",
-        "microsoft.aspnetcore.server.kestrel.transport.abstractions.2.1.1.nupkg.sha512",
+        "microsoft.aspnetcore.server.kestrel.transport.abstractions.2.1.2.nupkg.sha512",
         "microsoft.aspnetcore.server.kestrel.transport.abstractions.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets/2.1.1": {
-      "sha512": "5AzjCMc9iE9ZACbTEdJeoxsrrr1nf+KZc9j3+q4copOYKajuGZpsPpk/1g4vVEYSYiSWSn/WGWvZ20l3KxV0Og==",
+    "Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets/2.1.2": {
+      "sha512": "gcc1avuo0H3ZYvdXKfb7osX+rQT9YNWlUUXxR0ksraqFHZAkKA8fPLCaNvwSKqFC6PHYRE3tjS9Rdg+31qnDrA==",
       "type": "package",
-      "path": "microsoft.aspnetcore.server.kestrel.transport.sockets/2.1.1",
+      "path": "microsoft.aspnetcore.server.kestrel.transport.sockets/2.1.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5465,7 +5465,7 @@
         "lib/netcoreapp2.1/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.xml",
-        "microsoft.aspnetcore.server.kestrel.transport.sockets.2.1.1.nupkg.sha512",
+        "microsoft.aspnetcore.server.kestrel.transport.sockets.2.1.2.nupkg.sha512",
         "microsoft.aspnetcore.server.kestrel.transport.sockets.nuspec"
       ]
     },
@@ -8770,10 +8770,10 @@
         "system.io.filesystem.primitives.nuspec"
       ]
     },
-    "System.IO.Pipelines/4.5.0": {
-      "sha512": "1GB2tHmb/qRzCF6NX7+1LU6/IKPt8QKm6hHt7Vmyt/olg3XJIwwRzNwdfG0gKgPzNTIj0eOFk6UpVHrVMDrY0w==",
+    "System.IO.Pipelines/4.5.2": {
+      "sha512": "NOC/SO4gSX6t0tB25xxDPqPEzkksuzW7NVFBTQGAkjXXUPQl7ZtyE83T7tUCP2huFBbPombfCKvq1Ox1aG8D9w==",
       "type": "package",
-      "path": "system.io.pipelines/4.5.0",
+      "path": "system.io.pipelines/4.5.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -8786,7 +8786,7 @@
         "lib/netstandard2.0/System.IO.Pipelines.dll",
         "lib/netstandard2.0/System.IO.Pipelines.xml",
         "ref/netstandard1.3/System.IO.Pipelines.dll",
-        "system.io.pipelines.4.5.0.nupkg.sha512",
+        "system.io.pipelines.4.5.2.nupkg.sha512",
         "system.io.pipelines.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -9874,10 +9874,10 @@
         "system.runtime.nuspec"
       ]
     },
-    "System.Runtime.CompilerServices.Unsafe/4.5.1": {
-      "sha512": "Zh8t8oqolRaFa9vmOZfdQm/qKejdqz0J9kr7o2Fu0vPeoH3BL1EOXipKWwkWtLT1JPzjByrF19fGuFlNbmPpiw==",
+    "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+      "sha512": "wprSFgext8cwqymChhrBLu62LMg/1u92bU+VOwyfBimSPVFXtsNqEWC92Pf9ofzJFlk4IHmJA75EDJn1b2goAQ==",
       "type": "package",
-      "path": "system.runtime.compilerservices.unsafe/4.5.1",
+      "path": "system.runtime.compilerservices.unsafe/4.5.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -9893,7 +9893,7 @@
         "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
         "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
         "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
-        "system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -10826,10 +10826,10 @@
         "system.security.principal.nuspec"
       ]
     },
-    "System.Security.Principal.Windows/4.5.0": {
-      "sha512": "U77HfRXlZlOeIXd//Yoj6Jnk8AXlbeisf1oq1os+hxOGVnuG+lGSfGqTwTZBoORFF6j/0q7HXIl8cqwQ9aUGqQ==",
+    "System.Security.Principal.Windows/4.5.1": {
+      "sha512": "L3R/xk1s+AJB/ZRrwXyjXMmKp+RNgLP92LSidWEM0iCouznJoiiBloDCxRTjmo8hTDAKSWaMrltsttUzg1RhjA==",
       "type": "package",
-      "path": "system.security.principal.windows/4.5.0",
+      "path": "system.security.principal.windows/4.5.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -10863,7 +10863,7 @@
         "runtimes/win/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
         "runtimes/win/lib/netstandard1.3/System.Security.Principal.Windows.dll",
         "runtimes/win/lib/uap10.0.16299/_._",
-        "system.security.principal.windows.4.5.0.nupkg.sha512",
+        "system.security.principal.windows.4.5.1.nupkg.sha512",
         "system.security.principal.windows.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -11791,6 +11791,8 @@
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
+      "Microsoft.AspNetCore.Server.IISIntegration >= 2.1.2",
+      "Microsoft.AspNetCore.Server.Kestrel >= 2.1.2",
       "Microsoft.NETCore.App >= 2.1.0"
     ]
   },
@@ -11841,6 +11843,14 @@
           },
           "Microsoft.AspNetCore.Razor.Design": {
             "suppressParent": "All",
+            "target": "Package",
+            "version": "[2.1.2, )"
+          },
+          "Microsoft.AspNetCore.Server.IISIntegration": {
+            "target": "Package",
+            "version": "[2.1.2, )"
+          },
+          "Microsoft.AspNetCore.Server.Kestrel": {
             "target": "Package",
             "version": "[2.1.2, )"
           },
