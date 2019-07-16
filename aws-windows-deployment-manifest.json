@@ -5,7 +5,6 @@
       {
           "name": "dotnet21",
           "parameters": {
-              "appBundle": "site.zip",
               "iisPath": "/",
               "iisWebSite": "Default Web Site"
           }
